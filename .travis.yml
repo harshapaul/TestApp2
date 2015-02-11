@@ -1,0 +1,11 @@
+language: android
+
+android:
+  components:
+    - platform-tools
+    - tools
+    - android-19
+    - sys-img-armeabi-v7a-android-19
+
+before_install:
+    - chmod +x gradlew
