@@ -24,18 +24,3 @@ android {
     }
 }
 
-buildscript {
-    repositories {
-        mavenCentral()
-    }
-    dependencies {
-        classpath 'de.felixschulze.gradle:gradle-hockeyapp-plugin:3.0'
-    }
-}
-
-apply plugin: 'de.felixschulze.gradle.hockeyapp'
-
-hockeyapp {
-    apiToken = "dc59206ef9d644f7b3a75df743876d81"
-}
-
