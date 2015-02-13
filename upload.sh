@@ -11,6 +11,7 @@ OUTPUTDIR="./app/build/outputs/apk"
 HOCKEY_APP_ID="8d2b01a4602a0e51b4323fb65832fd36"
 HOCKEY_APP_TOKEN="dc59206ef9d644f7b3a75df743876d81"
 
+# upload via curl to Hockey app
 if [ ! -z "$HOCKEY_APP_ID" ] && [ ! -z "$HOCKEY_APP_TOKEN" ]; then
 echo ""
 echo "***************************"
