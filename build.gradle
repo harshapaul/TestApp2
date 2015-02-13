@@ -28,5 +28,6 @@ apply plugin: 'de.felixschulze.gradle.hockeyapp'
 
 hockeyapp {
     apiToken = "dc59206ef9d644f7b3a75df743876d81"
+    outputDirectory = 'app/build/outputs/apk'
+    appFileNameRegex = '.*.apk'
 }
-
